@@ -27,8 +27,8 @@ import {
 } from './data/mockData';
 
 export default function App() {
-  // Theme state: dark default
-  const [theme, setTheme] = useState('dark');
+  // Theme state: light default
+  const [theme, setTheme] = useState('light');
 
   // Active navigation tab
   const [activeTab, setActiveTab] = useState('landing');

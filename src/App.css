@@ -2941,20 +2941,24 @@
   max-width: 900px;
   margin: 0 auto 2rem;
   padding: 2rem;
-  background: #0f1627;
+  background: #ffffff;
   border: 2px solid #b45309;
   border-radius: var(--radius-lg);
-  box-shadow: 0 0 35px rgba(245, 158, 11, 0.25);
+  box-shadow: 0 10px 35px rgba(180, 83, 9, 0.12);
   position: relative;
 }
+[data-theme='dark'] .certificate-outer {
+  background: #0f1627;
+  box-shadow: 0 0 35px rgba(245, 158, 11, 0.25);
+}
 .certificate-inner-border {
-  border: 2px solid rgba(245, 158, 11, 0.4);
+  border: 2px solid rgba(180, 83, 9, 0.35);
   padding: 3rem 2.5rem;
   position: relative;
 }
 .cert-corner {
   position: absolute;
-  color: #fbbf24;
+  color: #b45309;
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -2967,29 +2971,33 @@
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background: rgba(245, 158, 11, 0.15);
-  border: 2px solid #fbbf24;
+  background: rgba(217, 119, 6, 0.12);
+  border: 2px solid #d97706;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.25rem;
 }
 .cert-gold-shield {
-  color: #fbbf24;
+  color: #b45309;
 }
 .cert-brand-subtitle {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.25em;
-  color: #f59e0b;
+  color: #b45309;
   display: block;
   margin-bottom: 0.5rem;
 }
 .cert-main-title {
   font-family: var(--font-cert);
   font-size: 2.5rem;
-  color: #fbbf24;
+  color: #92400e;
   margin-bottom: 0.5rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+[data-theme='dark'] .cert-main-title {
+  color: #fbbf24;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 .cert-statement {
@@ -3001,9 +3009,12 @@
 .cert-recipient-name {
   font-family: var(--font-cert);
   font-size: 2.2rem;
-  color: #ffffff;
+  color: #0f172a;
   letter-spacing: 0.05em;
   margin-bottom: 0.75rem;
+}
+[data-theme='dark'] .cert-recipient-name {
+  color: #ffffff;
 }
 .cert-description-text {
   font-size: 0.9rem;
@@ -3016,12 +3027,15 @@
   font-family: var(--font-display);
   font-size: 1.6rem;
   font-weight: 800;
-  color: #34d399;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #047857;
+  background: rgba(5, 150, 105, 0.1);
+  border: 1px solid rgba(5, 150, 105, 0.3);
   padding: 0.4rem 1.75rem;
   border-radius: var(--radius-full);
   margin-bottom: 1.75rem;
+}
+[data-theme='dark'] .cert-skill-highlight {
+  color: #34d399;
 }
 .cert-metrics-row {
   display: flex;
@@ -3059,8 +3073,11 @@
 }
 .sign-line {
   font-size: 1.25rem;
-  color: #ffffff;
+  color: #0f172a;
   margin-bottom: 0.2rem;
+}
+[data-theme='dark'] .sign-line {
+  color: #ffffff;
 }
 .cursive-sign {
   font-style: italic;

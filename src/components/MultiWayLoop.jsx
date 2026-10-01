@@ -157,13 +157,13 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                   />
 
                   {/* Edge Labels */}
-                  <text x="400" y="225" fill="#34d399" fontSize="11" fontWeight="600" textAnchor="middle">
+                  <text x="400" y="225" fill="#059669" fontSize="11" fontWeight="700" textAnchor="middle">
                     Teaches: Machine Learning
                   </text>
-                  <text x="300" y="440" fill="#a5b4fc" fontSize="11" fontWeight="600" textAnchor="middle">
+                  <text x="300" y="440" fill="#4f46e5" fontSize="11" fontWeight="700" textAnchor="middle">
                     Teaches: UI/UX & Figma
                   </text>
-                  <text x="180" y="225" fill="#67e8f9" fontSize="11" fontWeight="600" textAnchor="middle">
+                  <text x="180" y="225" fill="#0891b2" fontSize="11" fontWeight="700" textAnchor="middle">
                     Teaches: JS & React
                   </text>
 
@@ -173,7 +173,7 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                     transform="translate(300, 100)"
                     onClick={() => setSelectedNode(activeCycle.nodes[0])}
                   >
-                    <circle r="44" fill="#111827" stroke="#10b981" strokeWidth="3" filter="url(#glow)" />
+                    <circle r="44" fill="var(--bg-secondary)" stroke="#10b981" strokeWidth="3" filter="url(#glow)" />
                     <clipPath id="clip-arun">
                       <circle r="36" />
                     </clipPath>
@@ -185,10 +185,10 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                       height="72" 
                       clipPath="url(#clip-arun)" 
                     />
-                    <text y="62" fill="#f8fafc" fontSize="13" fontWeight="700" textAnchor="middle">
+                    <text y="62" fill="var(--text-primary)" fontSize="13" fontWeight="700" textAnchor="middle">
                       {activeCycle.nodes[0].name}
                     </text>
-                    <text y="78" fill="#94a3b8" fontSize="10" textAnchor="middle">
+                    <text y="78" fill="var(--text-secondary)" fontSize="10" textAnchor="middle">
                       Teaches ML • Wants UI
                     </text>
                   </g>
@@ -199,7 +199,7 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                     transform="translate(420, 350)"
                     onClick={() => setSelectedNode(activeCycle.nodes[1])}
                   >
-                    <circle r="44" fill="#111827" stroke="#6366f1" strokeWidth="3" filter="url(#glow)" />
+                    <circle r="44" fill="var(--bg-secondary)" stroke="#6366f1" strokeWidth="3" filter="url(#glow)" />
                     <clipPath id="clip-priya">
                       <circle r="36" />
                     </clipPath>
@@ -211,10 +211,10 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                       height="72" 
                       clipPath="url(#clip-priya)" 
                     />
-                    <text y="62" fill="#f8fafc" fontSize="13" fontWeight="700" textAnchor="middle">
+                    <text y="62" fill="var(--text-primary)" fontSize="13" fontWeight="700" textAnchor="middle">
                       {activeCycle.nodes[1].name}
                     </text>
-                    <text y="78" fill="#94a3b8" fontSize="10" textAnchor="middle">
+                    <text y="78" fill="var(--text-secondary)" fontSize="10" textAnchor="middle">
                       Teaches UI • Wants JS
                     </text>
                   </g>
@@ -225,7 +225,7 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                     transform="translate(180, 350)"
                     onClick={() => setSelectedNode(activeCycle.nodes[2])}
                   >
-                    <circle r="44" fill="#111827" stroke="#06b6d4" strokeWidth="3" filter="url(#glow)" />
+                    <circle r="44" fill="var(--bg-secondary)" stroke="#06b6d4" strokeWidth="3" filter="url(#glow)" />
                     <clipPath id="clip-rahul">
                       <circle r="36" />
                     </clipPath>
@@ -237,10 +237,10 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                       height="72" 
                       clipPath="url(#clip-rahul)" 
                     />
-                    <text y="62" fill="#f8fafc" fontSize="13" fontWeight="700" textAnchor="middle">
+                    <text y="62" fill="var(--text-primary)" fontSize="13" fontWeight="700" textAnchor="middle">
                       {activeCycle.nodes[2].name}
                     </text>
-                    <text y="78" fill="#94a3b8" fontSize="10" textAnchor="middle">
+                    <text y="78" fill="var(--text-secondary)" fontSize="10" textAnchor="middle">
                       Teaches JS • Wants ML
                     </text>
                   </g>
@@ -273,13 +273,13 @@ export default function MultiWayLoop({ onOpenChat, onStartSession }) {
                         transform={`translate(${coords.x}, ${coords.y})`}
                         onClick={() => setSelectedNode(n)}
                       >
-                        <circle r="36" fill="#111827" stroke="#10b981" strokeWidth="2" filter="url(#glow)" />
+                        <circle r="36" fill="var(--bg-secondary)" stroke="#10b981" strokeWidth="2" filter="url(#glow)" />
                         <clipPath id={`clip-${idx}`}>
                           <circle r="30" />
                         </clipPath>
                         <image href={n.avatar} x="-30" y="-30" width="60" height="60" clipPath={`url(#clip-${idx})`} />
-                        <text y="50" fill="#f8fafc" fontSize="12" fontWeight="700" textAnchor="middle">{n.name}</text>
-                        <text y="64" fill="#94a3b8" fontSize="9" textAnchor="middle">{n.teaches}</text>
+                        <text y="50" fill="var(--text-primary)" fontSize="12" fontWeight="700" textAnchor="middle">{n.name}</text>
+                        <text y="64" fill="var(--text-secondary)" fontSize="9" textAnchor="middle">{n.teaches}</text>
                       </g>
                     );
                   })}
