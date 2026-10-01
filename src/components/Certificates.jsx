@@ -122,9 +122,8 @@ export default function Certificates({ user, certificates = INITIAL_CERTIFICATES
             {/* Bottom Row: Signatures, ID, QR */}
             <div className="cert-bottom-signatures">
               <div className="signature-col">
-                <div className="sign-line cursive-sign">Dr. K. Swaminathan</div>
-                <span className="sign-label">Academic Dean of Innovation</span>
-                <span className="sign-inst">VISTAS Campus Council</span>
+                <div className="sign-line cursive-sign">Ms. Eneiya J B</div>
+                <span className="sign-label">Founder</span>
               </div>
 
               <div className="qr-col">
@@ -135,7 +134,7 @@ export default function Certificates({ user, certificates = INITIAL_CERTIFICATES
               </div>
 
               <div className="signature-col">
-                <div className="sign-line cursive-sign">SkillLoop Protocol</div>
+                <div className="sign-line cursive-sign">Jafrin Swetha</div>
                 <span className="sign-label">Peer Verification Authority</span>
                 <span className="sign-inst">Issued: {selectedCert.issuedDate}</span>
               </div>

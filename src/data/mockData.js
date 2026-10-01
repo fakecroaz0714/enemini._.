@@ -546,7 +546,7 @@ export const INITIAL_CERTIFICATES = [
     hoursCompleted: 20,
     level: 'Advanced',
     issuedDate: 'September 28, 2026',
-    verifiedBy: 'SkillLoop Academic Peer Verification Protocol',
+    verifiedBy: 'Jafrin Swetha (Peer Verification Authority)',
     status: 'Verified',
     qrCode: 'SKILLLOOP-VERIFIED-CERT-8849-CHANDRU-VISTAS'
   },
@@ -558,7 +558,7 @@ export const INITIAL_CERTIFICATES = [
     hoursCompleted: 15,
     level: 'Intermediate',
     issuedDate: 'September 15, 2026',
-    verifiedBy: 'SkillLoop Academic Peer Verification Protocol',
+    verifiedBy: 'Jafrin Swetha (Peer Verification Authority)',
     status: 'Verified',
     qrCode: 'SKILLLOOP-VERIFIED-CERT-5120-CHANDRU-VISTAS'
   }
