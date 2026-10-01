@@ -22,7 +22,7 @@ export const TOUR_STEPS = [
     step: 2,
     title: '2. Student Profile & Skills',
     tab: 'profile',
-    desc: 'Meet Chandru P (VIT / CSE / 3rd Year). Check "Skills I Can Teach" (Python, React) & "Skills I Want" (UI/UX Design).',
+    desc: 'Meet Chandru P (VISTAS / CSE / 3rd Year). Check "Skills I Can Teach" (Python, React) & "Skills I Want" (UI/UX Design).',
     actionHint: 'Notice the skill levels, proficiency bars, and availability.'
   },
   {

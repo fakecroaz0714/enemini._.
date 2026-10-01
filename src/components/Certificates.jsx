@@ -124,7 +124,7 @@ export default function Certificates({ user, certificates = INITIAL_CERTIFICATES
               <div className="signature-col">
                 <div className="sign-line cursive-sign">Dr. K. Swaminathan</div>
                 <span className="sign-label">Academic Dean of Innovation</span>
-                <span className="sign-inst">VIT Campus Council</span>
+                <span className="sign-inst">VISTAS Campus Council</span>
               </div>
 
               <div className="qr-col">
@@ -179,7 +179,7 @@ export default function Certificates({ user, certificates = INITIAL_CERTIFICATES
         <form onSubmit={handleVerify} className="verifier-form">
           <input 
             type="text" 
-            placeholder="Enter Certificate ID e.g. SL-2026-VIT-8849"
+            placeholder="Enter Certificate ID e.g. SL-2026-VISTAS-8849"
             value={verifyInput}
             onChange={(e) => setVerifyInput(e.target.value)}
             className="form-control"

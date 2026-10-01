@@ -105,7 +105,7 @@ export default function LandingPage({
     {
       quote: "SkillLoop helped me master Figma UI design from Priya while I mentored her in React hooks. Zero money spent, and we built an award-winning hackathon project together!",
       name: "Chandru P",
-      college: "VIT Vellore, CSE 3rd Year",
+      college: "VISTAS, CSE 3rd Year",
       avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150",
       rating: 5
     },
@@ -119,7 +119,7 @@ export default function LandingPage({
     {
       quote: "As an engineering student, finding juniors to teach Python allowed me to earn 120 credits, which I used for German language lessons before my study abroad semester!",
       name: "Arun Kumar",
-      college: "VIT AI & ML, 4th Year",
+      college: "VISTAS AI & ML, 4th Year",
       avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=150",
       rating: 5
     }

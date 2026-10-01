@@ -25,7 +25,7 @@ export default function AuthModal({ isOpen, onClose, onLoginUser }) {
   // Form Fields
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [college, setCollege] = useState('Vellore Institute of Technology (VIT)');
+  const [college, setCollege] = useState('Vels Institute of Science, Technology & Advanced Studies (VISTAS)');
   const [department, setDepartment] = useState('Computer Science & Engineering');
   const [regNo, setRegNo] = useState('');
   const [location, setLocation] = useState('Technology Tower, North Campus');
@@ -42,7 +42,7 @@ export default function AuthModal({ isOpen, onClose, onLoginUser }) {
     const newUser = {
       ...INITIAL_USER,
       name: name || 'Aditya Sharma',
-      email: email || 'aditya.s2023@vitstudent.ac.in',
+      email: email || 'aditya.s2023@vistas.ac.in',
       college: college,
       department: department,
       registerNumber: regNo || '23BCE1092',
@@ -66,7 +66,7 @@ export default function AuthModal({ isOpen, onClose, onLoginUser }) {
         ...INITIAL_USER,
         id: 'peer-priya',
         name: 'Priya Sharma',
-        email: 'priya.s2022@vitstudent.ac.in',
+        email: 'priya.s2022@vistas.ac.in',
         department: 'School of Design (V-SIGN)',
         avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=250',
         skillsOffered: INITIAL_PEERS[1].skillsOffered,
@@ -77,7 +77,7 @@ export default function AuthModal({ isOpen, onClose, onLoginUser }) {
         ...INITIAL_USER,
         id: 'peer-arun',
         name: 'Arun Kumar',
-        email: 'arun.k2021@vitstudent.ac.in',
+        email: 'arun.k2021@vistas.ac.in',
         department: 'Computer Science (AI & ML)',
         avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=250',
         skillsOffered: INITIAL_PEERS[0].skillsOffered,
@@ -150,8 +150,8 @@ export default function AuthModal({ isOpen, onClose, onLoginUser }) {
                   <input 
                     type="email" 
                     className="form-control" 
-                    defaultValue="chandru.p2022@vitstudent.ac.in" 
-                    placeholder="yourname@vitstudent.ac.in"
+                    defaultValue="chandru.p2022@vistas.ac.in" 
+                    placeholder="yourname@vistas.ac.in"
                     required
                   />
                 </div>
@@ -206,7 +206,7 @@ export default function AuthModal({ isOpen, onClose, onLoginUser }) {
                 <input 
                   type="email" 
                   className="form-control" 
-                  placeholder="e.g. aditya.s2023@vitstudent.ac.in" 
+                  placeholder="e.g. aditya.s2023@vistas.ac.in" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -295,7 +295,7 @@ export default function AuthModal({ isOpen, onClose, onLoginUser }) {
 
               <h4>Verify Your Campus Email</h4>
               <p className="otp-subtext">
-                We sent a 4-digit verification code to <strong>{email || 'aditya.s2023@vitstudent.ac.in'}</strong> to confirm your student status.
+                We sent a 4-digit verification code to <strong>{email || 'aditya.s2023@vistas.ac.in'}</strong> to confirm your student status.
               </p>
 
               <div className="otp-inputs-row">

@@ -2,8 +2,8 @@
 export const INITIAL_USER = {
   id: 'user-chandru',
   name: 'Chandru P',
-  email: 'chandru.p2022@vitstudent.ac.in',
-  college: 'Vellore Institute of Technology (VIT)',
+  email: 'chandru.p2022@vistas.ac.in',
+  college: 'Vels Institute of Science, Technology & Advanced Studies (VISTAS)',
   department: 'Computer Science & Engineering',
   year: '3rd Year',
   registerNumber: '21BCE1492',
@@ -40,8 +40,8 @@ export const INITIAL_PEERS = [
   {
     id: 'peer-arun',
     name: 'Arun Kumar',
-    email: 'arun.k2021@vitstudent.ac.in',
-    college: 'Vellore Institute of Technology (VIT)',
+    email: 'arun.k2021@vistas.ac.in',
+    college: 'Vels Institute of Science, Technology & Advanced Studies (VISTAS)',
     department: 'Computer Science (AI & ML)',
     year: '4th Year',
     registerNumber: '20BCE0842',
@@ -77,8 +77,8 @@ export const INITIAL_PEERS = [
   {
     id: 'peer-priya',
     name: 'Priya Sharma',
-    email: 'priya.s2022@vitstudent.ac.in',
-    college: 'Vellore Institute of Technology (VIT)',
+    email: 'priya.s2022@vistas.ac.in',
+    college: 'Vels Institute of Science, Technology & Advanced Studies (VISTAS)',
     department: 'School of Design (V-SIGN)',
     year: '3rd Year',
     registerNumber: '21BDES0114',
@@ -113,8 +113,8 @@ export const INITIAL_PEERS = [
   {
     id: 'peer-rahul',
     name: 'Rahul Dev',
-    email: 'rahul.dev2022@vitstudent.ac.in',
-    college: 'Vellore Institute of Technology (VIT)',
+    email: 'rahul.dev2022@vistas.ac.in',
+    college: 'Vels Institute of Science, Technology & Advanced Studies (VISTAS)',
     department: 'Information Technology',
     year: '3rd Year',
     registerNumber: '21BIT0238',
@@ -149,8 +149,8 @@ export const INITIAL_PEERS = [
   {
     id: 'peer-sneha',
     name: 'Sneha Reddy',
-    email: 'sneha.r2023@vitstudent.ac.in',
-    college: 'Vellore Institute of Technology (VIT)',
+    email: 'sneha.r2023@vistas.ac.in',
+    college: 'Vels Institute of Science, Technology & Advanced Studies (VISTAS)',
     department: 'Electronics & Communication',
     year: '2nd Year',
     registerNumber: '22BEC0911',
@@ -185,8 +185,8 @@ export const INITIAL_PEERS = [
   {
     id: 'peer-sanjay',
     name: 'Sanjay Patel',
-    email: 'sanjay.p2021@vitstudent.ac.in',
-    college: 'Vellore Institute of Technology (VIT)',
+    email: 'sanjay.p2021@vistas.ac.in',
+    college: 'Vels Institute of Science, Technology & Advanced Studies (VISTAS)',
     department: 'Mechanical Engineering',
     year: '4th Year',
     registerNumber: '20BME0451',
@@ -220,8 +220,8 @@ export const INITIAL_PEERS = [
   {
     id: 'peer-ananya',
     name: 'Ananya Iyer',
-    email: 'ananya.i2022@vitstudent.ac.in',
-    college: 'Vellore Institute of Technology (VIT)',
+    email: 'ananya.i2022@vistas.ac.in',
+    college: 'Vels Institute of Science, Technology & Advanced Studies (VISTAS)',
     department: 'Biotechnology & Bio-Informatics',
     year: '3rd Year',
     registerNumber: '21BBT0089',
@@ -540,7 +540,7 @@ export const AI_ASSESSMENTS = [
 export const INITIAL_CERTIFICATES = [
   {
     id: 'cert-1',
-    certificateId: 'SL-2026-VIT-8849',
+    certificateId: 'SL-2026-VISTAS-8849',
     studentName: 'CHANDRU P',
     skill: 'Python Programming',
     hoursCompleted: 20,
@@ -548,11 +548,11 @@ export const INITIAL_CERTIFICATES = [
     issuedDate: 'September 28, 2026',
     verifiedBy: 'SkillLoop Academic Peer Verification Protocol',
     status: 'Verified',
-    qrCode: 'SKILLLOOP-VERIFIED-CERT-8849-CHANDRU-VIT'
+    qrCode: 'SKILLLOOP-VERIFIED-CERT-8849-CHANDRU-VISTAS'
   },
   {
     id: 'cert-2',
-    certificateId: 'SL-2026-VIT-5120',
+    certificateId: 'SL-2026-VISTAS-5120',
     studentName: 'CHANDRU P',
     skill: 'React.js Component Architecture',
     hoursCompleted: 15,
@@ -560,7 +560,7 @@ export const INITIAL_CERTIFICATES = [
     issuedDate: 'September 15, 2026',
     verifiedBy: 'SkillLoop Academic Peer Verification Protocol',
     status: 'Verified',
-    qrCode: 'SKILLLOOP-VERIFIED-CERT-5120-CHANDRU-VIT'
+    qrCode: 'SKILLLOOP-VERIFIED-CERT-5120-CHANDRU-VISTAS'
   }
 ];
 
@@ -610,7 +610,7 @@ export const OPPORTUNITIES = [
   {
     id: 'opp-4',
     title: 'Smart India Hackathon Team Lead',
-    company: 'VIT Innovation & Incubation Center',
+    company: 'VISTAS Innovation & Incubation Center',
     type: 'Hackathon Team',
     stipend: 'Grant & Prize Pool (₹1,00,000)',
     location: 'Campus Tech Park',
@@ -631,8 +631,8 @@ export const ADMIN_STATS = {
   certificatesIssued: 180,
   totalCreditsCirculating: 14200,
   pendingVerifications: [
-    { id: 'v-1', name: 'Karthik Raja', college: 'VIT Vellore', regNo: '22BCE2091', email: 'karthik.r2022@vitstudent.ac.in', submittedAt: '10 mins ago', status: 'Pending' },
-    { id: 'v-2', name: 'Divya S', college: 'VIT Chennai', regNo: '21BCE5114', email: 'divya.s2021@vitstudent.ac.in', submittedAt: '1 hour ago', status: 'Pending' },
+    { id: 'v-1', name: 'Karthik Raja', college: 'VISTAS', regNo: '22BCE2091', email: 'karthik.r2022@vistas.ac.in', submittedAt: '10 mins ago', status: 'Pending' },
+    { id: 'v-2', name: 'Divya S', college: 'VISTAS', regNo: '21BCE5114', email: 'divya.s2021@vistas.ac.in', submittedAt: '1 hour ago', status: 'Pending' },
     { id: 'v-3', name: 'Naveen Kumar', college: 'Anna University', regNo: '2022105021', email: 'naveen.k@ceg.edu.in', submittedAt: '3 hours ago', status: 'Pending' }
   ]
 };

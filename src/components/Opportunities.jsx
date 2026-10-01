@@ -167,7 +167,7 @@ export default function Opportunities({ user }) {
                   <li>✓ <strong>Verified Teaching Hours:</strong> {user.teachingHours} Hours</li>
                   <li>✓ <strong>Skill Credits Earned:</strong> {user.credits} SL</li>
                   <li>✓ <strong>Campus Peer Rating:</strong> {user.rating} / 5.0 (19 Peer Reviews)</li>
-                  <li>✓ <strong>Digital Certificates:</strong> Python Programming (ID: SL-2026-VIT-8849)</li>
+                  <li>✓ <strong>Digital Certificates:</strong> Python Programming (ID: SL-2026-VISTAS-8849)</li>
                 </ul>
               </div>
 

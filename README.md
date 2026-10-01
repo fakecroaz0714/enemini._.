@@ -58,7 +58,7 @@ University students possess immense diverse talents—from full-stack web develo
 | **📅 Session Scheduler & Live Room** | End-to-end learning execution | Virtual or In-Person session booking; interactive live room simulator with video/mic toggles, elapsed timer, checklist, and collaborative scratchpad. |
 | **💰 Cashless Skill Wallet** | Micro-economy time banking | `1 Hour Teaching = +10 Credits`, `1 Hour Learning = -10 Credits`, +20 welcome grant, and complete audit ledger. |
 | **📝 AI Skill Assessments** | Objective skill validation | Interactive quiz & coding challenge tracks (Python, UI/UX, etc.) with instant scoring and automatic proficiency level promotion. |
-| **📜 Cryptographic Certificates** | Verifiable credentials | Formal SkillLoop Certificate of Achievement with QR/UUID validation code (`SL-2026-VIT-XXXX`), `@media print` PDF support, and public verification lookup. |
+| **📜 Cryptographic Certificates** | Verifiable credentials | Formal SkillLoop Certificate of Achievement with QR/UUID validation code (`SL-2026-VISTAS-XXXX`), `@media print` PDF support, and public verification lookup. |
 | **💼 Campus & Startup Opportunities**| Talent-to-work pipeline | Project, internship, and research postings with 1-Click Easy Apply embedding verified hours, ratings, and skill certificates. |
 | **🛡️ Campus Admin Dashboard** | Operational management | Live platform metrics (active users, exchange volume, hours taught), student ID verification approval queue, and taxonomy manager. |
 | **🧭 10-Step Guided Tour** | Interactive judge/demo mode | Floating walkthrough bar that guides evaluators step-by-step across all features with automatic step tracking. |
