@@ -123,50 +123,132 @@
   line-height: 1;
 }
 
-/* Nav Dropdown */
-.nav-dropdown-group {
-  position: relative;
+/* More Tab & Fixed Sub-Nav Strip (stays fixed on click, never floats over hero!) */
+.more-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 .dropdown-arrow {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
+  transition: transform var(--transition-fast);
 }
-.nav-dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
+
+/* Fixed Docked Sub-Nav Strip */
+.fixed-subnav-strip {
+  position: fixed;
+  top: 72px;
+  left: 0;
   right: 0;
-  margin-top: 0.5rem;
+  height: 48px;
   background: var(--bg-secondary);
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-lg);
-  padding: 0.5rem;
-  min-width: 170px;
-  z-index: 950;
-}
-.nav-dropdown-group:hover .nav-dropdown-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-.dropdown-item {
+  border-bottom: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+  z-index: 890;
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: var(--radius-sm);
+  animation: slideDownSubnav 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideDownSubnav {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fixed-subnav-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subnav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.subnav-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.subnav-links-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.subnav-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
-  background: transparent;
-  border: none;
+  font-size: 0.82rem;
+  font-weight: 600;
   cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 500;
-  text-align: left;
+  white-space: nowrap;
   transition: all var(--transition-fast);
 }
-.dropdown-item:hover, .dropdown-item.active {
+
+.subnav-pill-btn:hover {
   color: var(--accent-primary);
+  border-color: var(--border-accent);
+}
+
+.subnav-pill-btn.active {
+  background: rgba(5, 150, 105, 0.12);
+  color: #047857;
+  border-color: rgba(5, 150, 105, 0.35);
+  font-weight: 700;
+}
+
+.subnav-active-pip {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+}
+
+.subnav-close-icon {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.35rem;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.subnav-close-icon:hover {
+  color: var(--text-primary);
   background: var(--bg-tertiary);
+}
+
+/* Push content down when fixed sub-nav is visible */
+body.has-subnav .main-content {
+  padding-top: 120px;
 }
 
 /* Navbar Actions */
