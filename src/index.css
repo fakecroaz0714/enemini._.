@@ -1,0 +1,7 @@
+@import './styles/design-system.css';
+@import './App.css';
+
+/* Additional global overrides */
+#root {
+  min-height: 100vh;
+}
